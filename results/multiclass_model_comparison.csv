@@ -1,0 +1,7 @@
+Model,MacroF1,CohenKappa,Params,Inference(ms/epoch)
+Logistic Regression,0.657,0.595,,
+Random Forest,0.667,0.612,,
+XGBoost,0.683,0.626,,
+TinyCNN,0.659,0.597,114501.0,0.5
+TinyTCN,0.605,0.534,42309.0,1.0
+

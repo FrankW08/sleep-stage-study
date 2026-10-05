@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrrrr}
+\toprule
+Model & Family & MacroF1_mean & MacroF1_std & Kappa_mean & Kappa_std & Infer_ms & Params \\
+\midrule
+XGBoost & Classical & 0.907 & 0.020 & 0.814 & 0.039 & NaN & NaN \\
+RandomForest & Classical & 0.878 & 0.022 & 0.757 & 0.044 & NaN & NaN \\
+TinyTCN & Deep & 0.841 & 0.040 & 0.683 & 0.080 & 0.988 & 42597.000 \\
+TinyCNN & Deep & 0.840 & 0.042 & 0.682 & 0.082 & 0.165 & 3653.000 \\
+LogReg & Classical & 0.478 & 0.018 & 0.083 & 0.020 & NaN & NaN \\
+\bottomrule
+\end{tabular}

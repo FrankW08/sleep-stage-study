@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw Sleep-EDF data and large generated arrays
+sleep-edf-database-expanded-1.0.0/
+derived_sc/
+features/
+*.edf
+*.npz
+*.npy
+*.xls
+
+# Duplicate figures exported by legacy experiment scripts
+experiments/*.png
+
